@@ -1,0 +1,46 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+    
+html,body{
+    height:100%;
+}
+
+body { 
+    background-color: aqua;
+    background-image: url("../Images/main.jpg");
+    background-position: center;
+    background-size: cover;
+   
+}
+
+h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color:white;
+}
+
+p{
+    color:aliceblue;
+    margin: 30px;
+}
+
+ul, li{
+    color:aliceblue;
+    margin: 10px;
+    width: 5%;
+    margin-left:45%;
+}
+
+.main img {
+    width: 25%;
+    height: auto;
+    border-radius: 10%;
+    margin: 10px;
+}
+
