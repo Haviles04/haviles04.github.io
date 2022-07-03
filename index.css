@@ -35,6 +35,7 @@ ul, li{
     margin: 10px;
     width: 5%;
     margin-left:45%;
+    align-self: center;
 }
 
 .main img {
