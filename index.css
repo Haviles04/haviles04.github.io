@@ -108,6 +108,9 @@ section {
     
     }
 
+    .logo { transition: transform 0.5s; }
+    .logo:hover { transform: scale(0.75); }
+
     .logo img{
         height: 100px;
         width: auto;
@@ -118,6 +121,9 @@ section {
         height: 100px;
         width: auto;
     }
+
+    #contact { transition: transform 0.5s; }
+    #contact img:hover { transform: scale(0.75); }
 
 
     @media only screen and (max-width: 600px) {
