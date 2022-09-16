@@ -49,11 +49,13 @@ section {
 
 #arrow{
     display:flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .arrow-pulse-down:after {
 	content: "⮟"; 
-	position: absolute;
+	position: relative;
 	width: 35px; height: 35px;
 	margin: 0 auto;
     color:white;
