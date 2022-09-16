@@ -30,10 +30,10 @@ p{
 }
 
 #mainImage img {
-    width: 35%;
+    width: 100%;
     height: auto;
     border-radius: 10%;
-    margin: 10px;
+    
 }
 
 
@@ -42,14 +42,14 @@ section {
 }
 
 #mainImage{
-    height: 100vh;
     margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 
 /*Scroll down Arrow styling */
 
 #arrow{
-    
+    margin-top:1rem;
     width: 100%;
     justify-content: center;
     
@@ -134,11 +134,12 @@ section {
         }
 
         section #arrow{
+            margin-top:5rem;
             margin-bottom:0;
         }
 
         #intro{
-            margin-top:0;
+            margin-top:10rem;
         }
       }
 
