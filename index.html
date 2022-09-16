@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <title>Henry Aviles</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <link rel="stylesheet" href="index.css" type="text/CSS">
-    </head>
+  <head>
+    <title>Henry Aviles</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="index.css" type="text/CSS" />
+    <script defer src="index.js"></script>
+  </head>
 
-    <body>
+  <body>
+    <section id="mainImage" class="show">
+      <img src=".//images/Me.jpg" alt="A photo of Henry" />
+    </section>
 
-        <div class="main">
-            <h1>Hi, My name is Henry and I'm learning to be a front end developer!</h1>
-            <p>Welcome to my page, I am currently working as an ironworker but looking to change careers into tech.</p>
-            <img id="me" src="Me.jpg" />
+    <section id="arrow">
+      <div class="arrow-pulse-down"></div>
+    </section>
+
+    <section id="intro" class="hidden">
+      <h1>Hi I'm Henry!</h1>
+    </section>
+
+    <section id="myFutureJob" class="hidden">
+      <h2>I'm learning Front End Development.</h2>
+      <p>My goal is to switch to a career full time in front end.</p>
+    </section>
+
+    <section id="myCurrentJob" class="hidden">
+      <h3>I'm a welder and an Ironworker.</h3>
+      <p>I currently work as a union Ironworker and a Welder for</p>
+      <p>Ironworkers Local 40.</p>
+    </section>
+
+    <section id="learning" class="hidden">
+      <h3>Things I am learning!</h3>
+      <div class="logos">
+        <div class="logo hidden">
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img src=".//images/html.png" alt="HTML" /></a>
         </div>
-
-        <div class="secondary">
-        <h2>Things I am learning</h2>
-            
-            <div class="list">
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>React</li>
-                    <li>Javascript</li>
-                
-                </ul>
-            </div>
-            
-        <p>Follow me on my journey!</p>
+        <div class="logo hidden">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src=".//images/css.png" alt="HTML" /></a>
         </div>
-    
-    </body>
+        <div class="logo hidden">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src=".//images/JS.png" alt="HTML" /></a>
+        </div>
+        <div class="logo hidden">
+            <a href="https://reactjs.org/"><img src=".//images/react.png" alt="HTML" /></a>
+        </div>
+        <div class="logo hidden">
+            <a href="https://getbootstrap.com/"><img src=".//images/bootstrap.png" alt="HTML" /></a>
+        </div>
+        <div class="logo hidden">
+            <a href="https://git-scm.com/"><img src=".//images/git.png" alt="HTML" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h3>Get in touch!</h3>
+        <a href = "mailto: haviles04@gmail.com"><img src=".//images/gmail.png" alt="gmail logo"></a>
+        <p>Haviles04@gmail.com</p>
+    </section>
+
+  </body>
 </html>
