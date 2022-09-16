@@ -42,19 +42,21 @@ section {
 }
 
 #mainImage{
+    height: 100vh;
     margin-top: 5rem;
 }
 
 /*Scroll down Arrow styling */
 
 #arrow{
-    display:flex;
+    
     width: 100%;
     justify-content: center;
+    
 }
 
 .arrow-pulse-down:after {
-	content: "⮟"; 
+	content: "⇩"; 
 	position: relative;
 	width: 35px; height: 35px;
 	margin: 0 auto;
