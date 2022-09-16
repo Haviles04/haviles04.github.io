@@ -122,7 +122,7 @@ section {
         width: auto;
     }
 
-    #contact { transition: transform 0.5s; }
+    #contact img { transition: transform 0.5s; }
     #contact img:hover { transform: scale(0.75); }
 
 
